@@ -1,0 +1,18 @@
+.app {
+  min-height: 100vh;
+  background: lightblue;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tweet {
+  border: 5px solid black;
+  height: 400px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  padding: 30px;
+  margin: 50px;
+  background: white;
+}
